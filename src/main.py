@@ -27,7 +27,7 @@ card_pattern     = r"[0-9]{4}[ -][0-9]{4}[ -][0-9]{4}[ -][0-9]{4}"
 # The decimal part like .00 is optional since not all amounts have it
 currency_pattern = r"[$€£]\d+(,\d+)?(\.\d{2})?"
 
-emails     = []]
+emails     = []
 phones     = []
 cards      = []
 currencies = []
@@ -51,7 +51,6 @@ for line in lines:
     
 
     #I only check lines that start with "Card:" to avoid false matches
-    if "Card:" in line:
     if "Card:" in line:
         card_match = re.search(card_pattern, line)
         if card_match:
