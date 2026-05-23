@@ -14,7 +14,7 @@ file.close()
 email_pattern    = r"[a-zA-Z0-9][a-zA-Z0-9._-]*@(alueducation|alumni\.alueducation|si\.alueducation)\.com"
 
 # Phone numbers can start with + 
-# I set the length between 9 and 15 to cover different country formats
+# I set the length between 9 and 15 to cover different country formats and make sure that phone numbers with hyphens in between are also captured.
 
 phone_pattern    = r"\+[0-9-]{9,15}[0-9]"
 
