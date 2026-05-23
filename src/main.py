@@ -13,10 +13,10 @@ file.close()
 
 email_pattern    = r"[a-zA-Z0-9][a-zA-Z0-9._-]*@(alueducation|alumni\.alueducation|si\.alueducation)\.com"
 
-# Phone numbers can start with + for international or 0 for local
+# Phone numbers can start with + 
 # I set the length between 9 and 15 to cover different country formats
 
-phone_pattern    = r"(\+|0)[0-9-]{9,15}[0-9]"
+phone_pattern    = r"\+[0-9-]{9,15}[0-9]"
 
 # Credit cards follow the format XXXX XXXX XXXX XXXX or XXXX-XXXX-XXXX-XXXX
 # Both spaces and hyphens are accepted as separators
