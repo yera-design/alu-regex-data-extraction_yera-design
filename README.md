@@ -48,9 +48,15 @@ data that passes our validation rules.
 ## Project structure
 alu-regex-data-extraction/
 ├── input/
+
 │   └── raw-text.txt      # Raw messy transaction data
+
 ├── src/
+
 │   └── main.py           # Main extraction program
+
 ├── output/
+
 │   └── sample-output.json # Clean extracted results
-└── README.md              
+
+└── README.md                            
